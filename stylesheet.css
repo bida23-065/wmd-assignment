@@ -458,29 +458,3 @@ button:hover {
     width: 100%;
 }
 
-.overlay-text {
-    position: absolute;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    top: 50; /* Place text on top */
-    width: 100%;
-    white-space: nowrap;
-    color: white;
-    font-size: 80px;
-    text-align: left;
-  }
-
-  .overlay-text {
-    /* Text properties */
-    color: white; /* Change text color to white */
-    font-family: Arial, sans-serif; /* Set font family */
-    font-size: 18px; /* Set font size */
-    text-align: center; /* Center align text */
-  
-    /* Background properties (optional) */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    padding: 10px; /* Add padding around the text */
-  }
-
-  .h2{
-    margin: 20px;
-  }
