@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="shortcut icon" href="logo.jpeg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Page</title>
+</head>
+<body>
+    <!--navigation-------------->
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="logo.jpeg" height="50">
+        </a>
+        <h1>WarnerBros</h1>
+
+        <!--menu--btn----------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="tv_shows.html">TV Shows</a></li>
+            <li><a href="games_and_apps.html">Games&Apps</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <a class="active" href="feedback.html">Feedback</a>
+        </ul>
+        
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourtie Movies"/>
+            <!--search-icon----------->
+            <i class="fas fa-search"></i>
+        </div>
+        
+    </nav>
+    
+    
+  <h1>We Value Your Feedback!</h1>
+  <p>Please help us improve by sharing your thoughts on our website.</p>
+
+  <form name="feedback_form" id="feedback_form" method="post">
+    <label for="name">Your Name (Optional):</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name">
+
+    <label for="feedback">Feedback:</label>
+    <textarea name="feedback" id="feedback" rows="5" placeholder="Write your feedback here..."></textarea>
+
+    <label for="rating">Rate Your Experience:</label>
+    <br>
+    <input type="radio" name="rating" id="rating_excellent" value="excellent">
+    <label for="rating_excellent">Excellent</label>
+    <br>
+    <input type="radio" name="rating" id="rating_good" value="good">
+    <label for="rating_good">Good</label>
+    <br>
+    <input type="radio" name="rating" id="rating_fair" value="fair">
+    <label for="rating_fair">Fair</label>
+    <br>
+    <input type="radio" name="rating" id="rating_poor" value="poor">
+    <label for="rating_poor">Poor</label>
+    <br><br>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <!--btns--------------->
+  <div class="btns">
+    <a href="collections.html">Previous</a>
+    <a href="index1.html">Next</a>
+</div>
+
+  <!--footer------------------>
+  <footer>
+    <p>Going To Internet, Ltd Consumer Website</p>
+    <p>Copyright 2020 - GoingToInternet</p>
+</footer>
+
+</body>
+</html>
